@@ -7,9 +7,8 @@ channels:
 dependencies:
   - arcgis
   - black>=21
-  - cookiecutter
   - dask
-  - h3-py
+  - h3-py>=4.1
   - isort
   - jupyterlab
   - jupyterlab_code_formatter
@@ -17,11 +16,8 @@ dependencies:
   - pandoc
   - pip
   - pytest
-  - python=3.9
   - pyarrow
   - pyyaml
-  - scipy
-  - scikit-learn
   - seaborn
   - shapely
   - swifter
@@ -41,6 +37,4 @@ dependencies:
     - sphinxcontrib-youtube
     - sphinx-autodoc-typehints
     - sphinx-copybutton
-    - tox
-    - tox-conda
     - twine

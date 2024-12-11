@@ -95,3 +95,6 @@ env/
 
 # exclude the docs build directory
 docs/
+
+# secrets file
+**/secrets.ini
